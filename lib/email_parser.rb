@@ -13,7 +13,6 @@ class EmailParser
 def initialize (emails)
   @emails = emails
   @@all << self
-  binding.pry
 end
 
   def parse
