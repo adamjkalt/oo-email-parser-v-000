@@ -14,6 +14,7 @@ end
 
   def self.parse
     rows = emails.split("\n")
+    binding.pry
     people = rows.collect do |row|
       data = row.split(", ")
       name = self.new
