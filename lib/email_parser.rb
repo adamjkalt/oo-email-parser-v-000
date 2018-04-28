@@ -13,10 +13,9 @@ def initialize (emails)
 end
 
   def self.parse
-    rows = emails.split(" , ")
+    email_list = emails.split(" , ")
     binding.pry
-    people = rows.collect do |row|
-      data = row.split(", ")
+    people = email_list.collect do |email|
       name = self.new
       name
     end
