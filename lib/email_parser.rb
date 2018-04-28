@@ -15,7 +15,7 @@ def initialize (emails)
   @@all << self
 end
 
-  def @parse
+  def parse
     email_list = emails.split(" , ")
     emails = email_list.collect do |email|
       @@all << emails
