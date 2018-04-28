@@ -5,7 +5,7 @@
 
 class EmailParser
   attr_accessor :name, :age, :company
- 
+
   def self.new_from_csv(csv_data)
     # Split the CSV data into an array of individual rows.
     rows = csv_data.split("\n")
@@ -16,7 +16,7 @@ class EmailParser
       name = data[0]
       age = data[1]
       company = data[2]
- 
+
       # Make a new instance
       person = self.new # self refers to the Person class. This is Person.new
       # Set the properties on the person.
