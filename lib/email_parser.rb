@@ -17,9 +17,6 @@ end
 
   def parse
     email_list = emails.split(" , ")
-    binding.pry
-    emails = email_list.collect do |email|
-      @@all << emails
     end
     @@all
     end
