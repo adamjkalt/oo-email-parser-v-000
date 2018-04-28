@@ -11,7 +11,7 @@ def initialize
 end
 
   def self.parse
-    rows = csv_data.split("\n")
+    rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
       person = self.new
