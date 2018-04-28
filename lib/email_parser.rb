@@ -16,8 +16,9 @@ def initialize (emails)
 end
 
   def parse
-    email_list = emails.split(" , ")
-    binding.pry
+    emails.split.collect do |email|
+    
+    
     end
 
 end
