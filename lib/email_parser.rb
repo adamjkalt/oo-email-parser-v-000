@@ -17,8 +17,8 @@ end
 
   def parse
     emails.split.collect do |email|
-      binding.pry
-    end
+      email.split(",")
+        end
     end
 
 end
