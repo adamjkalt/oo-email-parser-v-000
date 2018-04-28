@@ -18,7 +18,7 @@ end
   def self.parse
     email_list = emails.split(" , ")
     binding.pry
-    people = email_list.collect do |email|
+    emails = email_list.collect do |email|
       name = self.new
       name
     end
