@@ -19,5 +19,6 @@ end
     emails.split.collect do |email|
       binding.pry
     end
+    end
 
 end
