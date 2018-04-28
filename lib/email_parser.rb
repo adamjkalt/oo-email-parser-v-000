@@ -14,8 +14,8 @@ end
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
-      person = self.new
-      person
+      name = self.new
+      name
     end
     # Return the array of newly created people.
     people
