@@ -18,6 +18,7 @@ end
 
   def parse
     email_list = emails.split(" , ")
+    binding.pry
     end
 
 end
