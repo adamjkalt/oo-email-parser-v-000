@@ -19,9 +19,9 @@ end
     email_list = emails.split(" , ")
     binding.pry
     emails = email_list.collect do |email|
-      name = self.new
-      name
+      @@all << emails
     end
+    @@all
     end
 
 end
