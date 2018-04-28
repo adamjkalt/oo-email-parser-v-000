@@ -17,6 +17,8 @@ end
       name = self.new
       name
     end
+    end
+    
     # Return the array of newly created people.
     people
   end
